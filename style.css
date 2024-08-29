@@ -63,6 +63,18 @@ html,body{
     background-color: #48a30012;
 }
 
+.progress-completed{
+    width: 50%;
+    height: 30px;
+    background-color: #48A300;
+    border-radius: 15px;
+    color: #EEFFE0;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-weight: 500;
+}
 
 @media (max-width: 768px){
     .main h1{
