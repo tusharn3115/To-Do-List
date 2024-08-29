@@ -100,6 +100,17 @@ html,body{
     border-radius: 50%;
     margin: 0 15px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check-icon {
+    display: none;
+}
+
+.completed .check-icon {
+    display: block;
 }
 
 .task1 input{
