@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="main">
-        <h1><span>Focus on</span> Today</h1>
-        <div class="container">
-            <h2><span>Today</span> <img class="img" src="./img/Sun.svg" alt="img"></h2>
-            <p>Raise the bar by completing your goals!</p>
-            <div class="progress-bar">
-                <div class="progress-completed">
-                    2/3 Completed
-                </div>
-            </div>
-
-            <div class="task1">
-                <div class="circle"></div>
-                <p>Complete this project today</p>
-            </div>
-            <div class="task1">
-                <div class="circle"></div>
-                <p>Complete this project today</p>
-            </div>
-            <div class="task1">
-                <div class="circle"></div>
-                <p>Complete this project today</p>
-            </div>
-            
-            <footer>
-                <h3>“Move one step ahead, today!”</h3>
-                <p class="name">Made with ❤️ by Tushar Negi</p>
-            </footer>
+      <h1><span>Focus on</span> Today</h1>
+      <div class="container">
+        <h2>
+          <span>Today</span> <img class="img" src="./img/Sun.svg" alt="img" />
+        </h2>
+        <p>Raise the bar by completing your goals!</p>
+        <div class="progress-bar">
+          <div class="progress-completed">2/3 Completed</div>
         </div>
+
+        <p class="warning">Please set all three goals!</p>
+
+        <form>
+          <div class="task1">
+            <div class="circle"><img src="./img/check-icon.svg" alt=""></div>
+            <input type="text" placeholder="Add new task...">
+          </div>
+          <div class="task1">
+            <div class="circle"><img src="./img/check-icon.svg" alt=""></div>
+            <input type="text" placeholder="Add new task...">
+          </div>
+          <div class="task1">
+            <div class="circle"><img src="./img/check-icon.svg" alt=""></div>
+            <input type="text" placeholder="Add new task...">
+          </div>
+        </form>
+
+        <footer>
+          <h3>“Move one step ahead, today!”</h3>
+          <p class="name">Made with ❤️ by Tushar Negi</p>
+        </footer>
+      </div>
     </div>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
