@@ -9,8 +9,7 @@
 
 html,body{
     width: 100%;
-    height: 100%;
-    scrollbar-width: thin;
+    scrollbar-width: thin;  
     background-color: #48a30012;
 }
 
@@ -75,6 +74,49 @@ html,body{
     padding-left: 15px;
     font-weight: 500;
 }
+
+.task1{
+    width: 570px;
+    height: 82px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 17px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.task1 .circle{
+    width: 24px;
+    height: 24px;
+    border: 2px solid rgba(97, 72, 28, 1);
+    border-radius: 50%;
+    margin: 0 15px;
+}
+
+.task1 p{
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 60px;
+}
+
+footer h3{
+    font-size: 16px;
+}
+
+footer .name{
+    font-size: 10px;
+    margin-top: 70px;
+}
+
+
+
+
+
 
 @media (max-width: 768px){
     .main h1{
