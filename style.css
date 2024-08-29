@@ -124,6 +124,11 @@ html,body{
     color: #d9d9d9;
 }
 
+.completed .goal-input{
+    color: #48A300;
+    text-decoration: line-through;
+}
+
 footer{
     text-align: center;
     margin-top: 60px;
