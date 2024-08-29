@@ -19,10 +19,13 @@ html,body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 16px;
 }
 
 .main h1{
     margin: 15px;
+    font-size: 64px;
+    text-align: center;
     color: #61481C;
 }
 
@@ -30,11 +33,42 @@ html,body{
     color: #48A300;
 }
 
-.main .container{
+.container{
     min-width: 660px;
     background-color: #fbfbfb;
     border-radius: 15px;
     margin: 10px; 
     padding: 28px 38px; 
     box-shadow: 0 0 10px 5px rgba(72, 163, 0, 0.07);
+}
+
+.container h2{
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.container img{
+    vertical-align: middle;
+}
+
+.container p{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.progress-bar{
+    width: 574px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #48a30012;
+}
+
+
+@media (max-width: 768px){
+    .main h1{
+        font-size: 32px;
+    }
+    .container{
+        padding: 16px 24px;
+    }
 }
